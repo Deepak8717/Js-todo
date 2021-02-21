@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  cursor: pointer;
+  padding: 5px;
 }
 body {
   width: 100%;
@@ -19,14 +25,21 @@ body {
 }
 header {
   display: flex;
+  margin: 10px auto;
 }
 header h1 {
   flex: 1;
   text-align: center;
+  font-style: italic;
 }
 header .clear {
-  margin: 15px 10px;
-  padding: 0;
+  margin: 10px;
+}
+.input-form {
+  width: 70%;
+  margin: 10px auto;
+  margin-bottom: 35px;
+  text-align: center;
 }
 ul {
   padding: 0;
@@ -34,14 +47,14 @@ ul {
 ul li {
   display: flex;
   justify-content: space-between;
-  width: 86%;
-  padding: 8px;
+  width: 80%;
+  padding: 8px 10px;
   border-radius: 5px;
+  margin: 8px auto;
+  box-shadow: 1px 1px 2px #6f6f6f;
+  background: #e2e1e1;
+  line-height: 2;
 }
 ul li:nth-child(odd) {
-  background: rgb(93 93 93);
-  color: #ffffff;
-}
-button {
-  cursor: pointer;
+  background: rgb(195 195 195);
 }
